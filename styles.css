@@ -1,0 +1,27 @@
+body {
+    max-width: clamp(320px, 90%, 900px);
+    margin: auto;
+    font-family: Georgia, serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: black;
+}
+h1,
+h2,
+h3 {
+text-wrap: balance;
+}
+h1 a {
+    text-decoration: none;
+    font-size: 3rem;
+}
+h2 {
+font-size: 1.8rem;
+}
+img {
+    max-width: 100%;
+    heigh: auto;
+}
+p {
+    max-width: 60ch;
+}
